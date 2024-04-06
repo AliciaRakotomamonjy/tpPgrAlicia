@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/JSF/JSFManagedBean.java to edit this template
  */
-package jsf;
+package mg.itu.tpprgalicia.jsf;
 
 import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
@@ -14,9 +14,9 @@ import java.util.List;
  * @author alici
  */
 
-@Named(value = "bean")
+@Named(value = "bean1")
 @RequestScoped
-public class Bean {
+public class Bean1 {
 
     private int nombre;
 
@@ -38,6 +38,6 @@ public class Bean {
     }
     
     public String afficher(){
-        return "affichage_3?nb="+ nombre + "&amp;faces-redirect=true";
+        return "affichage_4?nb="+ nombre + "&amp;faces-redirect=true";
     }
 }
